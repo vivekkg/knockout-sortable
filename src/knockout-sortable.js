@@ -348,6 +348,7 @@
             }
 
             //handle disposal
+            //by Vivek Kuduva
             ko.utils.domNodeDisposal.addDisposeCallback(element, function() {
                 $(element).draggable("destroy");
             });
